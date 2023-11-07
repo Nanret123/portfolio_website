@@ -1,0 +1,59 @@
+
+.about{
+	background: #fff;
+	}
+
+.about__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	margin: 65px auto;
+
+
+	@media screen and (max-width: 768px) {
+		width: 100%;
+		flex-direction: column;
+		margin: 0;
+		padding: 0 40px;
+	}
+
+	.about__info{
+		flex: 1;
+		width: 600px;
+		margin: 0 25px;
+
+		@media screen and (max-width: 768px){
+			width: 100%;
+			margin: 35px 0;
+		}
+
+		h2{
+			font-size: 28px;
+			margin-bottom: 20px;
+
+		}
+
+		.about__desc {
+			font-size: 1rem;
+			line-height: 1.5;
+			margin-bottom: 40px;
+			text-transform: capitalize;
+		}
+	}
+
+	.about__image{
+		flex: 1;
+		width: 20%;
+		height: 20%;
+		margin-bottom: 3rem;
+
+		img{
+			width: 90%;
+			height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+            
+		}
+	}
+}
