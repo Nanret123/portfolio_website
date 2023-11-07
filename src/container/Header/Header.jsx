@@ -42,7 +42,7 @@ const Header = () => {
               <AiFillLinkedin rel="noreferrer" />
             </a>
           </div>
-          <a href="#" target="_blank" className="app__header-btn">
+          <a href="/images/resume.pdf" target="_blank" className="app__header-btn">
             Download CV
           </a>
         </motion.div>
