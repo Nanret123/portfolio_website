@@ -16,7 +16,7 @@ const Header = () => {
           <p className="info-p1">Hello, I'm</p>
           <h1 className="info-title">Nanret Gungshik</h1>
           <p className="info-p2">
-            And I am a <span> Backend Web Developer</span>
+            And I am a <span>Fullstack Web Developer</span>
           </p>
           <div className="btn-container"></div>
 
